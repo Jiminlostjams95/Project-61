@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+}
+
+.contact1 h3 {
+    display: inline;
+    text-decoration: none;
+}
+
+#welcome {
+    z-index: 9;
+    background: linear-gradient(#d7d8e5 0%, #948b95 100%);
+    padding-top: 5%;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+
+#name {
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    text-shadow: 2px 2px #716d95;
+    font-size: 30px;
+    color: white;
+    font-family: Century Gothic;
+}
+
+h2 {
+    font-size: 30px;
+    color: #2e347f;
+    font-family: 'Pacifico', cursive
+}
+
+p {
+    font-family: Century Gothic;
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.line {
+    margin: 8px auto;
+    height: 10px;
+    width: 100px;
+    background-color: black;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    padding-left:70px;
+    text-align: center;
+}
+
+.link {
+    float: center;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #716d95;
+    font-size: 20px;
+    text-shadow: blue;
+    display: inline;
+    font-size: 25px;
+    background-color: white;
+}
+
+.link:hover {
+    background-color: #fae8c3;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #716d95;
+    font-family: Century Gothic;
+}
+
+#killua {
+    border-radius: 20%;
+    height: 350px;
+}
+
+#killua {
+    transition: transform .2s
+}
+
+#killua:hover {
+    transform: scale(0.7)
+}
+
+#bio {
+    background-color: #a49da3;
+}
+
+#video {
+    background-color: #d4d1d9;
+}
+
+#photo {
+    background-color: #d7d8e5;
+}
+
+#popularity {
+    background-color: #d4d1d9;
+}
+
+#inspire {
+    background-color: #9191AD
+}
+#contact{
+    background-color: #a49da3;
+}
